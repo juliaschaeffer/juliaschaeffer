@@ -1,19 +1,11 @@
 @import "_normalize.scss";
 
 // variables
-@import "_ol-variables.scss";
+@import "_js-variables.scss";
 
 //utilities, mixins etc
 @import "_utilities.scss";
 
 // Custom styling
-@import "_ol-type.scss";
-@import "blocks/_ol-page.scss";
-@import "blocks/_ol-header-name.scss";
-@import "blocks/_ol-caption.scss";
-@import "blocks/_ol-portfolio.scss";
-@import "blocks/_ol-project-list.scss";
-@import "blocks/_ol-project.scss";
-@import "blocks/_ol-area-list.scss";
-@import "blocks/_ol-page-footer.scss";
-@import "blocks/_ol-page-header.scss";
+// @import "_js-type.scss";
+// @import "blocks/_js-page.scss";

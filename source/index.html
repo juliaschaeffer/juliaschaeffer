@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Olga Luchanok</title>
+  <title>Julia Schäffer</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
   <link rel="stylesheet" href="css/style.min.css">
@@ -16,60 +16,78 @@
 
   <main class="page page-main">
 
-    <section class="page-main__header-name header-name">
-      <div class="wrapper header-name__wrapper">
-        <h1 class="header-name__name">Julia Schäffer</h1>
+    <section class="side-intro">
+      <div class="side-intro__wrapper">
+        <h1 class="side-intro__name">Julia Schäffer</h1>
+        <h2 class="side-intro__profession">Sprachlehrerin, Prüferin und Lernberaterin</h2>
+        <div class="socials-wrapper">
+          <ul class="socials-list">
+            <li class="socials-item socials-item__linkedin">LinkedIn</li>
+          </ul>
+        </div>
+        <nav class="main-nav" aria-label="Main menu">
+          <button class="main-nav__trigger" type="button" title="Главное меню"><span></span></button>
+          <div class="main-nav__dropdown" id="main-menu">
+            <div class="main-nav__dropdown-inner">
+              <ul class="main-nav__list main-nav__list--main">
+                <li class="main-nav__item" itemprop="name">
+                  <a class="main-nav__link" href="">Berufserfahrung</a>
+                </li>
+                <li class="main-nav__item" itemprop="name">
+                  <a class="main-nav__link" href="">Bildungsweg</a>
+                </li>
+                <li class="main-nav__item" itemprop="name">
+                  <a class="main-nav__link" href="">Zusatzqualifikationen</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
     </section>
 
-    <section class="page-main__section page-main__section--caption caption">
-      <div class="wrapper caption__wrapper">
-        <h1 class="caption__title visually-hidden">Some important info about me</h1>
+    <section class="main-info">
+      <div class="main-info__wrapper">
+        <div class="main-info__item experience">
+          <p class="experience__number">(01)</p>
+          <h2 class="experience__title">Berufserfahrung</h2>
+          <ul class="experience__list">
+            <li class="experience__item">
+              <div class="experience__table-side table-side">
+                <h3 class="table-side__place">Goethe-Institut</h3>
+                <p class="table-side__city">Berlin und Mexiko</p>
+                <p class="table-side__time">seit Oktober 2019</p>
+              </div>
+              <div class="experience__table-main table-main">
+                <h2 class="table-main__title">Projektarbeit (Ministerium für Bildung Costa Rica / Uni Wien)</h2>
+                <p class="table-main__content">Erstellung eines Curriculums für das Fach Deutsch an öffentlichen Schulen
+                  (Konzipierung von Unterrichtsentwürfen, Testentwicklung, Revision)</p>
+              </div>
 
-        <p class="text caption__text">I am a web designer currently living in Mexico City. Also I draw letters, logos
-          and fonts. This page is my test lab for the projects in type design, web development and web design. </p>
-        <p class="text caption__text">This multi-part tutorial will get you started with Python. No prior knowledge
-          required. You can read through it all in one morning, have lunch, and write your first scripts in the
-          afternoon of the same day. Have fun!
-          <a class="link caption__link" href="mailto:olga.luchanok@gmail.com">olga.luchanok@gmail.com</a>
-        </p>
-      </div>
-    </section>
+            </li>
 
-    <section class="page-main__section page-main__section--portfolio portfolio">
-      <div class="wrapper portfolio__wrapper">
+            <li class="experience__item">
+              <div class="experience__table-side table-side">
+                <h3 class="table-side__place">Goethe-Institut</h3>
+                <p class="table-side__city">Mexiko-Stadt</p>
+                <p class="table-side__time">Februar 2016 – Oktober 2019</p>
+              </div>
+              <div class="experience__table-main table-main">
+                <ul class="table-main__various-list">
+                  <li class="">
+                    <h2 class="table-main__title">Sprachlehrerin, Prüferin und Lernberaterin</h2>
+                    <ul class="">
+                      <li class="table-main__content">Konzeption, Durchführung, Evaluation von Sprachkursen</li>
+                      <li class="table-main__content">Prüferin der Goethe-Prüfungen A1 bis C1 (Erwachsene und
+                        Jugendliche)</li>
+                    </ul>
+                  </li>
 
-        <ul class="portfolio__area-list area-list list">
-          <li class="area-list__item">
-            <h2 class="title area-list__title">Letters &mdash;</h2>
+                </ul>
+              </div>
 
-            <ul class="portfolio__project portfolio__project--letters project-list list">
-
-              <li class="project__item project project--napoleon">
-                <p class="text project__text"><a class="link project__title"
-                    href="../napoleon.html">Napoleon</a>&ensp;is lorem
-                  ipsum
-                  dolor sit
-                  amet
-                  tra la la. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-                  takimata sanctus est Lorem ipsum dolor sit amet. </p>
-              </li>
-
-              <li class="project__item project project--bos">
-                <p class="text project__text">A recovery-study for&ensp;<a class="link project__title" href="">Bookman
-                    Old Style</a>&ensp;is lorem
-                  ipsum
-                  dolor sit
-                  amet
-                  tra la la. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                  invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
-                  duo dolores et ea rebum.</p>
-              </li>
-
-            </ul>
-
-          </li>
-
-        </ul>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 
