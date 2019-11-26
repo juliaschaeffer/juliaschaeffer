@@ -1,0 +1,16 @@
+.main-nav {
+  &__list {
+  }
+
+  &__item {
+    font-size: 1.2em;
+    line-height: 1.8em;
+  }
+
+  &__link {
+    font-weight: 600;
+    // text-decoration: underline;
+    text-decoration: none;
+    color: $black-90;
+  }
+}

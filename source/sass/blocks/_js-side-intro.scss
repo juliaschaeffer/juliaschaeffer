@@ -1,0 +1,30 @@
+.side-intro {
+  max-height: 80vh;
+  &__wrapper {
+    padding-bottom: 9em;
+    padding-top: 7em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-bottom: 1px solid $black-20;
+  }
+
+  &__name {
+    margin: 0;
+    font-size: 4em;
+    font-weight: 600;
+    margin-bottom: 0.5em;
+  }
+
+  &__position {
+    margin: 0;
+    font-weight: 100;
+    margin-bottom: 2em;
+  }
+}
+
+.socials-link {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 2em;
+  // text-decoration: underline;
+}

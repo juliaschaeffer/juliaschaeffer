@@ -1,0 +1,28 @@
+.table-main {
+  &__title {
+    margin: 0;
+    margin-bottom: 0.5em;
+  }
+
+  &__content {
+    margin: 0;
+    margin-bottom: 0.2em;
+    font-size: 1.2em;
+  }
+
+  &__various-list {
+    margin-bottom: 3em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .table-main {
+    &__content {
+      max-width: 540px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.experience {
+  &__item {
+    margin-bottom: 2em;
+    border-bottom: 1px solid $black-20;
+  }
+  &__number {
+    margin: 0;
+    margin-bottom: 0.5em;
+    // font-weight: 100;
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 3em;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .experience {
+    &__item {
+      display: flex;
+      padding-bottom: 2em;
+
+      &:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+      }
+    }
+    &__table-side {
+      padding-right: 1em;
+      width: 30%;
+    }
+
+    &__table-main {
+      width: 70%;
+    }
+  }
+}
