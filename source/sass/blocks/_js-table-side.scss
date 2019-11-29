@@ -1,19 +1,36 @@
 .table-side {
+  // color: $black-70;
+  margin-bottom: 2em;
+  font-family: "Spectral script=all rev=1";
+  font-style: italic;
+
   &__place {
     margin: 0;
     margin-bottom: 0.2em;
-    font-weight: 600;
     font-size: 1.5em;
+    font-weight: 600;
+    font-feature-settings: normal;
+    font-kerning: normal;
   }
+
   &__city {
     font-weight: 100;
     margin: 0;
+    font-feature-settings: normal;
+    font-kerning: normal;
   }
 
   &__time {
     font-weight: 100;
     margin: 0;
     margin-bottom: 0.2em;
-    // text-align: right;
+    font-feature-settings: normal;
+    font-kerning: normal;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .table-side {
+    margin-bottom: 0;
   }
 }

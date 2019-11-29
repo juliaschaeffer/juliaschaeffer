@@ -7,14 +7,22 @@
   }
 
   &__item {
-    margin-bottom: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
     border-bottom: 1px solid $black-20;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
   }
 
   &__number {
     margin: 0;
     margin-bottom: 0.5em;
-    // font-weight: 100;
   }
 
   &__title {
@@ -30,12 +38,8 @@
     &__item {
       display: flex;
       padding-bottom: 2em;
-
-      &:last-child {
-        padding-bottom: 0;
-        border-bottom: none;
-      }
     }
+
     &__table-side {
       padding-right: 1em;
       width: 30%;

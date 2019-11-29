@@ -1,20 +1,23 @@
 .table-main {
+  // margin-bottom: 2em;
+
   &__title {
     margin: 0;
     margin-bottom: 0.5em;
+    max-width: 580px;
   }
 
   &__content {
     margin: 0;
-    margin-bottom: 0.2em;
     font-size: 1.2em;
+    max-width: 540px;
   }
 }
 
 @media (min-width: $tablet-width) {
   .table-main {
-    &__content {
-      max-width: 540px;
+    &__title {
+      max-width: 100%;
     }
   }
 }

@@ -1,5 +1,6 @@
 .side-intro {
   max-height: 80vh;
+
   &__wrapper {
     padding-bottom: 9em;
     padding-top: 7em;
@@ -22,9 +23,8 @@
   }
 }
 
-.socials-link {
+.socials {
   display: block;
   font-size: 1.2em;
   margin-bottom: 2em;
-  // text-decoration: underline;
 }
