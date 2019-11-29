@@ -1,9 +1,9 @@
 .experience {
-  &__wrapper {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-top: 4em;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  &__title {
+    margin: 0;
+    margin-bottom: 2em;
+    font-weight: 400;
+    font-size: 1.2em;
   }
 
   &__item {
@@ -23,13 +23,6 @@
   &__number {
     margin: 0;
     margin-bottom: 0.5em;
-  }
-
-  &__title {
-    margin: 0;
-    margin-bottom: 3em;
-    font-weight: 400;
-    font-size: 1.5em;
   }
 }
 

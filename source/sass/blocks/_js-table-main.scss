@@ -1,7 +1,7 @@
 .table-main {
-  // margin-bottom: 2em;
-
   &__title {
+    font-size: 1.2em;
+    font-weight: 600;
     margin: 0;
     margin-bottom: 0.5em;
     max-width: 580px;
@@ -9,8 +9,9 @@
 
   &__content {
     margin: 0;
-    font-size: 1.2em;
+    font-size: 1em;
     max-width: 540px;
+    margin-bottom: 0.5em;
   }
 }
 
