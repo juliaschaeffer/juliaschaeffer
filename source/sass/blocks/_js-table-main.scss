@@ -9,14 +9,6 @@
     margin-bottom: 0.2em;
     font-size: 1.2em;
   }
-
-  &__various-list {
-    margin-bottom: 3em;
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-  }
 }
 
 @media (min-width: $tablet-width) {
