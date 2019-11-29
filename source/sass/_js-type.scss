@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css?family=Spectral&display=swap");
+
+body {
+  letter-spacing: normal;
+  text-rendering: optimizeLegibility;
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-size: $font-size-root;
+  font-style: normal;
+  background-color: $white;
+  color: $black-90;
+  vertical-align: baseline;
+}

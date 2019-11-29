@@ -1,0 +1,45 @@
+.experience {
+  &__title {
+    margin: 0;
+    margin-bottom: 2em;
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+
+  &__item {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid $black-20;
+
+    &:first-child {
+      padding-top: 0;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  &__number {
+    margin: 0;
+    margin-bottom: 0.5em;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .experience {
+    &__item {
+      display: flex;
+      padding-bottom: 2em;
+    }
+
+    &__table-side {
+      padding-right: 1em;
+      width: 30%;
+    }
+
+    &__table-main {
+      width: 70%;
+    }
+  }
+}

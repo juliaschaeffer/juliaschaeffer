@@ -1,0 +1,9 @@
+.various-list {
+  &__item {
+    margin-bottom: 2em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

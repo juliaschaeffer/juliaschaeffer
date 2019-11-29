@@ -1,0 +1,37 @@
+.table-side {
+  margin-bottom: 2em;
+  font-family: "Spectral script=all rev=1";
+  font-style: italic;
+
+  &__place {
+    margin: 0;
+    margin-bottom: 0.2em;
+    font-size: 1.2em;
+    font-weight: 600;
+    font-feature-settings: normal;
+    font-kerning: normal;
+  }
+
+  &__city {
+    font-weight: 100;
+    font-size: 1em;
+    margin: 0;
+    font-feature-settings: normal;
+    font-kerning: normal;
+  }
+
+  &__time {
+    font-weight: 100;
+    font-size: 1em;
+    margin: 0;
+    margin-bottom: 0.2em;
+    font-feature-settings: normal;
+    font-kerning: normal;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .table-side {
+    margin-bottom: 0;
+  }
+}
